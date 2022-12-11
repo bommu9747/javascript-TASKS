@@ -1,0 +1,61 @@
+#color{
+    background-color:rgb(243, 107, 107);
+    height: 780px;
+    width: 700px;
+    margin-left: 350px;
+    border-radius: 30px;
+    opacity: 0.8;
+    border: 4px solid black;
+}
+#color1{
+    background-color:rgb(172, 59, 59);
+    height: 600px;
+    width: 520px;
+    margin-left: 90PX;
+    border-radius: 20px;
+    border: 4px solid bisque;
+}
+h3{
+    font-size:x-large;
+    text-align: center;
+}
+label{
+    align-items: center;
+    /* margin-left: 30px; */
+    
+    color: lightcyan;
+    font-size:medium;
+}
+input{
+    margin-left: 30px;
+    height: 20px;
+    border: 1px solid black;
+}
+#name{
+    margin-left: 48px;
+}
+#psw{
+    margin-left: 30px;
+}
+#submit{
+    margin-left: 150px;
+    width:100px;
+    height: 40px;
+    font-size: medium;
+    border-radius: 30PX;
+}
+textarea{
+    border: 1px solid black;
+}
+#ID{
+    margin-left:35px;
+}
+#address{
+    margin-left: 35px;
+}
+#country{
+    margin-left: 38px;
+}
+#about{
+    margin-left:40px;
+}

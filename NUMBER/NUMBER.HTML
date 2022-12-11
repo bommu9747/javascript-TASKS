@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="NUMBER.CSS">
+</head>
+<body>
+    <div id="num1"><br><br><br>
+        <div id="num2">
+            <p>Guss The Number..</p>
+        <div id="num3">
+            <h3> We have selected a random number between 1-10.
+                see if you can guess it...</h3></div>
+         </div> 
+         
+        <table>
+       
+       <tr><td>Enter Your Guess Number   :-</td>
+     <td><input type="text" id="guessfeild" size="30px"></td>  
+      
+       <td><button id="submitguess">Submit</button></td></tr>
+        </table>  
+        
+        <!-- enter number: <input type="text" id="one1">
+        <button onclick="dis()">submit</button>
+         -->
+
+        
+        <!-- <input type="text" id="num4"  type="display"> -->
+        <!-- <div id="num5">
+        <input type="text"  type="display"> </di
+        <button id="num6">Submit</button></div> -->
+    </div> 
+    <script>
+        var y=Math.floor(Math.random()*10+1);
+        console.log(y)
+        var Guess=1;
+        document.getElementById("submitguess").onclick=function call(){ 
+            var x=document.getElementById('guessfeild').value;
+            console.log(x)
+             
+   if(x>y)
+   {    
+    alert("SORRY YOU GUESS NUMBER IS WRONG ,TRY A SMALLER NUMBER");
+      
+   }
+   else if(x<y){
+    alert("SORRY YOR NUMBER IS WRONG,TRY A GREATER NUMBERS");
+   }
+   else{
+
+    alert("CONGRATULATIONS!!! YOU GUESSED IT  "+Guess);
+   }
+   }
+      
+
+
+
+    </script>
+    
+    
+
+</body>
+</html>

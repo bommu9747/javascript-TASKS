@@ -1,0 +1,88 @@
+#num1{
+     background-image: url("num3.4.jpeg");
+     background-repeat:round; 
+     width: 900px;
+     height: 400px;
+    margin-left: 200px;
+    background-color: azure;
+    border: 8px solid rgb(223, 233, 232);
+    -webkit-box-shadow:0px -1px 20px rgba(0,0,0,0.5), 0px 1px 20px rgba(0,0,0,0.7);
+   -moz-box-shadow:0px -1px 20px rgba(0,0,0,0.5), 0px 1px 20px rgba(0,0,0,0.7);
+   box-shadow:0px -1px 20px rgba(0,0,0,0.5), 0px 1px 20px rgba(0,0,0,0.7);
+   opacity:0.9;
+   border-radius: 40px;
+   align-items: center;
+   align-items: initial;
+}
+
+
+#num2{
+    height: 50px;
+    width: 700px;
+    background-color:black;
+    margin-left: 100px;
+    border-radius: 40px;
+    border:2px solid blanchedalmond;
+}
+p{
+    color:azure;
+    font-size: xx-large;
+    font-style:var(25px);
+    margin-left: 230px;
+    margin-top: 2px;
+    border: 1px solid black;
+    
+}
+h3{
+    margin-bottom:900PX;
+    color:black;
+    margin-left: 60PX;
+    background-color: bisque;
+    font-size:large;
+    width: 600px;
+    align-items: center;
+    border-radius: 20px;
+    height: 30px;
+    font-style:oblique;
+    align-items: center;
+    text-align: center;
+    border: 1px solid black;
+    
+}
+h4{
+    margin-top: 100px;
+    font-size: large;
+    background-color:black;
+    width: 300px;
+    color:bisque;
+    margin-left: 50px;
+    text-align: center;
+    border-style:double;
+    border-radius: 4px;
+    font-style: inherit;
+    height: 25px;
+}
+/* #num4{
+    margin-left: 80px;
+    margin-bottom:800;
+} */
+/* #num5{
+    margin-left: 500px;
+    margin-bottom: 1400px;
+} */
+table{
+    margin-top: 100px;
+    margin-left: 190px;
+    font-size: larger;
+    background-color: black;
+    color:azure;
+    height: 50px;
+    border-radius: 4px;
+margin-bottom: 490px;    font-style: inherit;
+    background-origin: padding-box;
+}
+button{
+    background-color:black;
+    color: azure;
+}
+
