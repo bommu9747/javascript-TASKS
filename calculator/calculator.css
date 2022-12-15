@@ -1,0 +1,80 @@
+.calculator{
+    padding: 5px;
+    border-radius: 1em;
+    height: 380px;
+    width: 400px;
+    margin: auto;
+    background-color:gray;
+}
+.display-box{
+    background-color: lightgreen;
+    height: 70px;
+    width: 350px;
+    margin-left: 15px;
+    border-radius: 20px;
+    color: black;
+    font-size: xx-large;
+    box-shadow: 200px;
+    text-shadow: 200px;
+
+}
+#btn{
+    background-color: red;
+    width: 60px;
+    height: 52px;
+    font-size: x-large;
+    position: relative;
+    padding: 10PX;
+    border-radius: 10px;
+}
+input [type=button]{
+    font-family: 'Orbitron', sans-serif;
+    color: white;
+    width:300px;
+    height: 700px;
+    border-radius: 10px;
+    outline: none;
+    
+}
+input:active[type=button]{
+    background-color: red;
+}
+/* display{
+    width: 200px;
+    height: 100px;
+} */
+#equal{
+    height: 100px;
+    width:60px;
+    background-color:blue;
+    font-size: x-large;
+    border-radius: 10px;
+}
+#zero{
+    width: 75px;
+    height: 52px;
+    background-color: red;
+    font-size: x-large;
+    border-radius: 10px;
+}
+#dot{
+    width:70px;
+    height: 52px;
+    background-color: red;
+    font-size: x-large;
+    border-radius: 10px;
+}
+#per{
+    width:70px;
+    background-color: red;
+    height: 52px;
+    font-size: x-large;
+    border-radius: 10px;
+}
+#aro{
+    width: 70px;
+    background-color: red;
+    height: 52px;
+    font-size: x-large;
+    border-radius: 10px;
+}
